@@ -1,1 +1,1 @@
-* Horeca software systems
+* Horeca software systems - An Electron & Vue.Js based application
