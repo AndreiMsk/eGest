@@ -1,9 +1,13 @@
+import '@/bootstrap.js'
 import Vue from 'vue'
 import axios from 'axios'
 
 import App from './App'
 import router from './router'
 import store from './store'
+
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.http = Vue.prototype.$http = axios

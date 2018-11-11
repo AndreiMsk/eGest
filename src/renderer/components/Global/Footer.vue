@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div>
+    footer component
   </div>
 </template>
 
 <script>
   export default {
-    name: 'app'
+    name: 'footer',
   }
 </script>
